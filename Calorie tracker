@@ -40,11 +40,11 @@ for j in range(len(Meals_list)):
     print( Meals_list[j] ,"    ", Calories_intake_list[j])
             
          
-    # 2. View Total Calories: View the total calories consumed throughout the day.     
+    # 2.Total Calories: View the total calories consumed throughout the day.     
 sum= sum+Calories_intake
 print(f"Total Calories Intake:{sum}")
 print("--------------------------------------------------")
-# 3. View Daily Summary: Get a summary of your avg calorie intake per meal for the day.
+# 3.Daily Summary: Get a summary of your avg calorie intake per meal for the day.
 avg=sum/len(Calories_intake_list)
 print(f"Average Calories Intake so far:{avg}")
             
@@ -54,3 +54,4 @@ if sum>Calorie_limit:
     print("Warning: You have exceeded your daily calorie limit!")
 else:
      print("Congratulations!,You are within your daily calorie limit. Keep it up!")
+#Thank You !!
